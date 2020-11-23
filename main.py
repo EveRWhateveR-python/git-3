@@ -50,7 +50,7 @@ class UI_Project(QMainWindow):
 
     def circle(self, qp):
         a = randint(1, 100)
-        qp.setBrush(QColor(255, 0, 0))
+        qp.setBrush(QColor(255, 255, 0))
         self.qp.drawEllipse(100, 100, 100 + a, 100 + a)
 
 
